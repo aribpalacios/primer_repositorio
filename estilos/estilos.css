@@ -2,67 +2,35 @@
 *{
   margin: 0%;
   padding: 0%;
+  box-sizing: border-box;
+
 }
-body{
-  font-family: 'Noto Sans JP', sans-serif;
-}
-.fondo_inicio{
-  font-family: Arial, Helvetica, sans-serif;
-   font-size: 18px;
-   background-image: url(../imagenes/fondo.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-#logo{
+
+.logo{
   width: 150px;
-  position: absolute;
-  right: 50px;
-  top: 300px;
+  padding: 10pX 0;
+}
+.iconos_redes{
+  margin: 10px 5px;
+}
+.img-follow{
+  width: 350px;
+  height: 350px;
+  
+}
+.altura-a-b{
+  padding: 100px 0;
 }
 
-#logo:hover{
-  transition: all 0.5s ease 0s;
-  opacity: 70%;
-}
-
-
-
-
-#menu_inicio ul li{
-  display: inline-block ;
-  padding: 10px;
-  font-size: 0.8rem;
+.bg-image{
+  background-image: url(../imagenes/fondo.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  top: -100;
+  
 
 }
-
-#menu_inicio ul li a{
-  color: white;
-  text-decoration: none;
-}
-
-
-#menu_inicio ul li a:hover{
-  transition: all 0.5s ease 0s;
-  opacity: 60%;
-  color: yellow;
-}
-
-
-.fotografa{
-  color: rgb(240, 240, 240);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1rem;
-  position: absolute;
-    right: 50px;
-  top: 350px;
-  letter-spacing: 0.5rem;
-}
-
-#footer_inicio{
-  width: 30px;
-}
-#footer_inicio:hover{
-  transition: all 0.5s ease 0s;
-  opacity: 60%;
-}
-
